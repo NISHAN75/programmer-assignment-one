@@ -24,6 +24,7 @@ body{
     color: #fff;
     padding: 15px 40px;
     border-radius: 5px;
+    transition: 3ms;
 }
 .btn:hover {
     background: #FFAD59;
@@ -66,9 +67,11 @@ body{
 }
 .services-innner-content {
     border-radius: 25px;
+    transition: 3ms;
 }
 .services-innner-content:hover {
     background: #FFAD59;
+   
 }
 .services-inside-content {
     padding: 10px 25px;
@@ -118,10 +121,10 @@ input {
 textarea {
     height: 200px;
     width: 500px;
-    color: #333;
     outline: none;
     color: #000;
     background-color: #EDF5F6;
+    padding: 20px 50px;
 }
 ::-webkit-input-placeholder{
     color: #000;
