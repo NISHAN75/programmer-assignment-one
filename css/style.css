@@ -124,11 +124,15 @@ textarea {
     outline: none;
     color: #000;
     background-color: #EDF5F6;
-    padding: 20px 50px;
 }
+
 ::-webkit-input-placeholder{
     color: #000;
     background-color: #EDF5F6;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+textarea ::placeholder{
     padding: 20px 50px;
     border-radius: 10px;
 }
