@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+
+/* normally css */
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #3E3E3E;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+.heading-color {
+    color: #FFAD59;
+}
+.btn {
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    background: #FF5959;
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+.btn:hover {
+    background: #FFAD59;
+    color: #3E3E3E;
+}
+.text-center{
+    text-align: center;
+}
+.p-line-h {
+    line-height: 40px;
+}
+
+
+/* banner area css */
+.banner-inner-caption h1 {
+    font-size: 50px;
+    font-weight: 700;
+    font-style: normal;
+    color: #2F2F2F;
+    padding-left: 20px;
+}
+.banner-inner-caption {
+    border-left: 8px solid #FF5959;
+}
+/* services area css */
+.main-heading {
+    font-size: 50px;
+    font-weight: 700;
+    font-style: normal;
+    color: #13103A;
+}
+.color-one {
+    background: #EDF5F6;
+}
+.color-two{
+    background: #FFEEEE;
+}
+.color-three {
+    background: #FFF4D6;
+}
+.services-innner-content {
+    border-radius: 25px;
+}
+.services-innner-content:hover {
+    background: #FFAD59;
+}
+.services-inside-content {
+    padding: 10px 25px;
+}
+.services-inside-content h2 {
+    font-size: 35px;
+    color: #000;
+    font-weight: 700;
+    font-style: normal;
+}
+.services-img img {
+    width: 200px;
+    height: 200px;
+}
+/* client area css */
+.inner-caption{
+    font-size: 40px;
+    font-weight: 800;
+    color: #333333;
+    line-height: 50px;
+}
+/* blog area css */
+.blog-caption ul li {
+    line-height: 40px;
+}
+/* contact area css */
+.contact-adress h4 {
+    font-size: 35px;
+    font-weight: 700;
+    font-style: normal;
+}
+.contact-adress-inner h6 {
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #000;
+}
+input {
+    height: 50px;
+    width: 500px;
+    margin-bottom: 15px;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+textarea {
+    height: 200px;
+    width: 500px;
+    color: #333;
+    outline: none;
+    color: #000;
+    background-color: #EDF5F6;
+}
+::-webkit-input-placeholder{
+    color: #000;
+    background-color: #EDF5F6;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+/* footer area css */
+.footer-area {
+    background: #0B0D17;
+    padding: 25px 60px;
+}
+.big-footer-heading h3 {
+    font-size: 30px;
+    font-weight: 800;
+    font-style: normal;
+    color: #fff;
+}
+.big-footer-heading.text-center h3 span {
+    color: #FF5B5B;
+}
+.copy-right-area.text-center p {
+    color: #72747f;
+}
